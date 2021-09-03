@@ -1,0 +1,53 @@
+#navbar {
+    flex-direction: column;
+}
+
+
+#navbar ul {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ #navbar #ul .list{
+   margin: 0px;
+} 
+
+#navbar #ul .list a {
+    text-decoration: none;
+    /* padding: 1.3rem 4rem 1.3rem 4rem; */
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.2rem;
+    /* color: whitesmoke; */
+    padding: 0.6px 0rem 0.6rem 0.6rem;
+}
+
+
+#home .para {
+    font-size: 1.6rem;
+    margin: 44px 10px 39px 10px;
+    color: cornsilk;
+    font-weight: 600;
+}
+
+#home .head {
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+}
+
+#home {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 469px;
+    margin: 20px 40px 0px 40px;
+}
+
+#home::before {
+    content: "";
+    height: 735px;
+    background-position: center;
+    background-size: 1111px;
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    opacity: 0.6;
+    background-color: black;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+#navbar #logo #img {
+    height: 4rem;
+    width: 5rem;
+}
+
+#navbar #ul .list a{
+    text-decoration: none;
+    padding: 1.3rem 4rem 1.3rem 4rem;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+#navbar #ul .list a:hover {
+    color: yellowgreen;
+    background-color: whitesmoke;
+}
+
+#navbar #ul .list {
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    padding: 1.3rem 4rem 1.3rem 4rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    margin: 20px 40px 0px 40px;
+}
+#home::before{
+    content: "";
+    height: 630px;
+    background-image: url("Donate_bg.jpg");
+    background-position: center;
+    background-size: 510px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.7;
+    background-repeat: repeat-x;
+}
+
+#home .head {
+    color: red;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+    
+}
+
+#home .hea {
+    color: rgb(40, 231, 245);
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: repeating-linear-gradient(315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #7B00FFFF 65%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+
+#home .para {
+    font-size: 2rem;
+    margin:70px 10px 69px 10px;
+    color: cornsilk;
+    font-weight: 600;
+}
+
+#donation {
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 310px; */
+    margin: 10px 40px 10px 40px;
+    background-color: dimgrey;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#donation #head {
+    color: rgb(14, 142, 192);
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+}
+
+
+#donation #btn {
+    font-size: 2rem;
+    padding: 20px;
+    color: goldenrod;
+    font-weight: bold;
+    background-color: ivory;
+    justify-content: center;
+    align-items: center;
+}
+
+#donation #btn:hover {
+    color: gold;
+    background-image: url("tq.png");
+    background-size: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    cursor: pointer;
+
+}

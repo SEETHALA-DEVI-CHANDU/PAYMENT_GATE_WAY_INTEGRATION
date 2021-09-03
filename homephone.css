@@ -1,0 +1,85 @@
+#navbar {
+    flex-direction: column;
+}
+
+
+#navbar ul {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ #navbar #ul .list{
+   margin: 0px;
+} 
+
+#navbar #ul .list a {
+    text-decoration: none;
+    /* padding: 1.3rem 4rem 1.3rem 4rem; */
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 1.2rem;
+    /* color: whitesmoke; */
+    padding: 0.6px 0rem 0.6rem 0.6rem;
+}
+
+#home .hea {
+    color: rgb(40, 231, 245);
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: repeating-linear-gradient(
+315deg, #00FFFF2E 92%, #073AFF00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #7B00FFFF 65%, #073AFF00 100%),radial-gradient(99% 99% at 21% 78%, #7B00FFFF 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, #2000FFFF 0%, #073AFFFF 100%);
+}
+#home .para {
+    font-size: 1.6rem;
+    margin: 44px 10px 39px 10px;
+    color: cornsilk;
+    font-weight: 600;
+}
+
+#home .head {
+    color: red;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+}
+
+#home {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 921px;
+    margin: 20px 40px 0px 40px;
+}
+#home::before {
+    content: "";
+    height: 1038px;
+    background-image: url(Donate_bg.jpg);
+    background-position: center;
+    background-size: 806px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.7;
+    background-repeat: repeat-x;
+}
+#donation #btn {
+    font-size: 1rem;
+    padding: 13px;
+    /* color: goldenrod; */
+    /* font-weight: bold; */
+    /* background-color: ivory; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#donation #head {
+    color: rgb(14, 142, 192);
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+}

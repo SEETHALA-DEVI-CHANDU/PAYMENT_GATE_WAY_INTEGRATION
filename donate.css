@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+#navbar::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    opacity: 0.6;
+    background-color: black;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+#navbar #logo #img {
+    height: 4rem;
+    width: 5rem;
+}
+
+#navbar #ul .list a{
+    text-decoration: none;
+    padding: 1.3rem 4rem 1.3rem 4rem;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+#navbar #ul .list a:hover {
+    color: yellowgreen;
+    background-color: whitesmoke;
+}
+
+#navbar #ul .list {
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    padding: 1.3rem 4rem 1.3rem 4rem;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 510px;
+    margin: 20px 40px 0px 40px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#home::before{
+    content: "";
+    height: 630px;
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-size: 1650px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+
+#home .head {
+    color: rgb(238, 55, 55);
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Balsamiq Sans', cursive;
+    text-shadow: blanchedalmond;
+    
+}
+
+
+#home .para {
+    font-size: 2rem;
+    margin:70px 10px 69px 10px;
+    color: rgb(6, 115, 216);
+    font-weight: 600;
+}
